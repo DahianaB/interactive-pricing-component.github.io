@@ -28,35 +28,37 @@
         <div class="card mb-5 card-carta ">
           <div class="card-body">
             <div class="row ">
-              <div class=" col-md-6 col-12 col-sm-6 order-sm-1   order-1 d-flex">
-                <span class="txt3">100K</span>
+              <div class=" col-md-6 col-12 col-sm-12 order-md-1   order-1 d-flex">
+                <span class="txt3" id="pageviews">100k</span>
                 <span class="txt4">PAGEVIEWS</span>
                 
               </div>
-            <div class="  col-md-6 col-12 order-sm-2 col-sm-6  order-3 mt-md-0 mt-3  d-flex">
-             <h2 class="txt5"><span id="text5" >$16</span>.00</h2> 
+            <div class="  col-md-6 col-12 order-md-2 col-sm-6  order-3 mt-md-0 mt-3  d-flex">
+             <h2 class="txt5"><span id="price" >$16</span>.00</h2> 
               <span class="txt6">/month</span>
                
             </div>
+            <div class="  col-12 order-md-3 col-sm-12   order-2">
+              <input type="range"  class="slider rounded-lg" step="25" value="50">
             </div>
-            <div class="  col-12 order-sm-3 col-sm-6 order-sm-3  order-2">
-              <input type="range" class="slider rounded-lg" step="10" value="30">
             </div>
+            
             
                <div class="col-12 align-items-center text-center d-flex ">
                  <h4 class="txt7">Monthly Billing</h4>
                  
-                 <div class="check align-items-center">
-                   <label for="mySwitch" class="switch-container">
-              <input type="checkbox"  id="box">
-              <span id="swith" class="toggle-check"></span>
+                 <div class="box ">
+                   <label for="mySwitch" class="switch">
+              <input type="checkbox"  id="promo-switch">
+              <span  class="check"></span>
             </label>
             
             
                  </div>
                  <h4 class="textos-check align-items-center">
               <span class="txt8 "> Yearly Billing</span>
-                   <span class="txt9  "> 25% discount</span>
+                   <span class=" txt9  d-md-inline d-none"> 25% discount</span>
+                   <span class="txt9 d-md-none d-inline">-25%</span>
             </h4>
 
                 
@@ -74,8 +76,8 @@
         
           </div>
           <div class="row mt-4">
-            <div class="col-md-6 col-sm-12 text-md-left text-center">
-                <ul >
+            <div class="col-md-6 col-sm-12 text-center">
+                <ul class="lista">
                   <li>Unlimited websites</li>
                   <li>100% data ownership</li>
                   <li>Email reports</li>
