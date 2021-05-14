@@ -106,7 +106,7 @@ body{
     cursor: pointer;
     box-shadow: 5px 10px 10px rgb(184, 250, 243);
     background-position: center !important; 
-	background: hsl(174, 86%, 45%) url(../images/icon-slider.svg) no-repeat;
+	background-image: hsl(174, 86%, 45%) url(../images/icon-slider.svg) no-repeat;
     
 }
 /* //checkBox */
