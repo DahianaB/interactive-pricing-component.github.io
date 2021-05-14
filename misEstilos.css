@@ -74,8 +74,11 @@ body{
     border-radius: 50px;
     cursor: pointer;
     box-shadow: 5px 10px 10px rgb(184, 250, 243);
-    background-position: center !important; 
-	background: hsl(174, 86%, 45%) url(../images/icon-slider.svg) no-repeat;
+    background-position: center !important;
+    background-image: url(./images/icon-slider.svg);
+    background-repeat: no-repeat;
+	
+
     
 }
 /* //checkBox */
