@@ -214,7 +214,7 @@ li{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     .txt5{
         font-family: "Manrope", sans-serif;
         font-weight: bold;
@@ -295,9 +295,9 @@ li{
         color: hsl(225, 20%, 60%);
     }
     
-  }
+  
 
-  /* @media only screen and (min-device-width :538px) and (max-device-width : 320px) {
+ 
     .txt5{
         font-family: "Manrope", sans-serif;
         font-weight: bold;
@@ -377,4 +377,4 @@ li{
         padding-top: 15px;
         color: hsl(225, 20%, 60%);
     }
-  } */
+  } */ 
