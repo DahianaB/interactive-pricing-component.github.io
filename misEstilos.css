@@ -49,38 +49,7 @@ body{
     /* border-radius: .25rem; */
 }
 
-.txt3{
-    font-family: "Manrope", sans-serif;
-    padding-top: 35px;
-    padding-left: 15px;
-    font-weight: 800;
-    font-size: 15px;
-    color: hsl(225, 20%, 60%);
 
-}
-.txt4{
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    font-size: 15px;
-    margin-left: 5px;
-    padding-top: 35px;
-    color: hsl(225, 20%, 60%);
-}
-.txt5{
-    font-family: "Manrope", sans-serif;
-    font-weight: bold;
-    font-size: 2.5rem;
-    padding-left: 29px;
-    padding-top: 20px;
-}
-
-.txt6{
-    font-family: "Manrope", sans-serif;
-    font-size: 600;
-    padding-top: 35px;
-    color: hsl(225, 20%, 60%);
-    
-}
 
 .slider{
     -webkit-appearance: none;
@@ -111,205 +80,85 @@ body{
 }
 /* //checkBox */
 
-.switch{
+
+.new{
     display: flex;
-    /* width: 80px; */
-    /* height: 30px; */
-    /* background-color:silver; */
+    width: 44px;
+    height: 24px;
 }
-.switch input{
+
+.new input{
     display: none;
 }
+
 .check{
     display: flex;
     align-items: center;
-    width: 50px;
-    height: 22px;
+    width: 100%;
     background-color: hsl(223, 50%, 87%);
     cursor: pointer;
     border-radius: 34px;
     -webkit-transition: .4s;
     transition: .3s;
-    
 }
+
 .check::before{
     content: "";
-    width: 15px;
     height: 15px;
-    background-color: white;
+    width: 15px;
     border-radius: 34px;
     margin: 3px 4px;
+    background-color: white;
+    -webkit-transition: .4s;
     transition: .3s;
-    
-}
-.swicth input:checked + .check::before{
-    margin-left:65px;
-    background-color: tan;
-}
-.switch input:checked + .check {
-    background-color: teal;
 }
 
-
-.txt7{
-    font-family: "Manrope", sans-serif;
-    font-size: 12px;
-    line-height: 16px;
-    font-weight: 600;
-    color: hsl(225, 20%, 60%);
-    margin-right: 15px;
-    padding-left: 125px;
-}
-.textos-check{
-    padding-bottom: 14px;
-    padding-left: 15px;
-}
-.lista{
-    margin-left: 15px;
-    
-}
-li{
-    list-style-image: url(images/icon-check.svg);
-    color: hsl(225, 20%, 60%);
-    font-size: 13px;
-    font-weight: 600;
-    padding-bottom: 0.5em;
-    padding-right: 59px;
-    
-}
-.boton{
-    border-radius: 100px;
-    color: #BECDFF;
-    background-color: hsl(227, 35%, 25%);
-    border-style: none;
-    font-size: 12px;
-    font-weight: 800;
-    height: 38px;
-    width: 160px;
-    margin-right: 15px;
-    padding-right: 15px;
-    cursor: pointer;
-}
-.txt8{
-    font-family: "Manrope", sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    color: hsl(225, 20%, 60%);
-    align-items: center;
-}
-.txt9{
-    font-family: "Manrope", sans-serif;
-    font-size: 12px;
-    margin-left: 5px;
-    background-color: hsl(14, 92%, 95%);
-    color: hsl(15, 100%, 70%);
-    border-radius: 10px;
+.new input:checked + .check{
+    background-color: hsl(174, 76%, 52%);
 }
 
-
-
+.new input:checked + .check::before{
+    margin-left: 25px;
+}
 
 
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
- @media only screen and (max-width: 600px) {
-    .txt5{
-        font-family: "Manrope", sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        padding-left: 75px;
-        padding-top: 2.5px;
-    }
-    
-    .txt6{
-        font-family: "Manrope", sans-serif;
-        font-size: 600;
-        padding-top: 16px;
-        color: hsl(225, 20%, 60%);
-        
-    }
-    .txt7{
-        font-family: "Manrope", sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 600;
-        color: hsl(225, 20%, 60%);
-        margin-right: 5px;
-        padding-left: 0;
-        padding-top: 15px;
-        
-        
-    }
-    .textos-check{
-        padding-bottom: 14px;
-        padding-left: 5px;
-        padding-top: 15px;
-    }
-    .toggle-check{
-        margin-left:8px;
-        margin-top: 15px;
-    }
-    .lista{
-        margin-left: 95px;
-        
-    }
-    li{
-        list-style-image: url(images/icon-check.svg);
-        color: hsl(225, 20%, 60%);
-        font-size: 13px;
-        font-weight: 600;
-        padding-bottom: 0.5em;
-        padding-right: 125px;
-        
-    }
-    .boton{
-        border-radius: 100px;
-        color: #BECDFF;
-        background-color: hsl(227, 35%, 25%);
-        border-style: none;
-        font-size: 12px;
-        font-weight: 800;
-        height: 38px;
-        width: 160px;
-        margin-left: 25px;
-        cursor: pointer;
-        margin-bottom: 35px;
-    }
-    .txt3{
-        font-family: "Manrope", sans-serif;
-        padding-top: 15px;
-        padding-left: 105px;
-        font-weight: 800;
-        font-size: 15px;
-        color: hsl(225, 20%, 60%);
-    
-    }
-    .txt4{
-        font-family: "Manrope", sans-serif;
-        font-weight: 800;
-        font-size: 15px;
-        margin-left: 5px;
-        padding-top: 15px;
-        color: hsl(225, 20%, 60%);
-    }
-    
   
 
- 
+
+/* @media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
+    .txt3{
+        font-family: "Manrope", sans-serif;
+        padding-top: 35px;
+        padding-left: 185px;
+        font-weight: 800;
+        font-size: 15px;
+        color: hsl(225, 20%, 60%);
+    
+    }
+    .txt4{
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+    }
     .txt5{
         font-family: "Manrope", sans-serif;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-left: 75px;
-        padding-top: 2.5px;
+        padding-left: 159px;
+        padding-top: 20px;
     }
     
     .txt6{
         font-family: "Manrope", sans-serif;
         font-size: 600;
-        padding-top: 16px;
+        padding-top: 35px;
         color: hsl(225, 20%, 60%);
         
     }
@@ -319,23 +168,15 @@ li{
         line-height: 16px;
         font-weight: 600;
         color: hsl(225, 20%, 60%);
-        margin-right: 5px;
-        padding-left: 0;
-        padding-top: 15px;
-        
-        
+        margin-right: 15px;
+        padding-left: 85px;
     }
     .textos-check{
         padding-bottom: 14px;
-        padding-left: 5px;
-        padding-top: 15px;
-    }
-    .toggle-check{
-        margin-left:8px;
-        margin-top: 15px;
+        padding-left: 15px;
     }
     .lista{
-        margin-left: 95px;
+        margin-left: 155px;
         
     }
     li{
@@ -344,7 +185,7 @@ li{
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 125px;
+        padding-right: 179px;
         
     }
     .boton{
@@ -356,14 +197,36 @@ li{
         font-weight: 800;
         height: 38px;
         width: 160px;
-        margin-left: 25px;
+        margin-right: 15px;
+        padding-right: 15px;
         cursor: pointer;
-        margin-bottom: 35px;
     }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+
+} */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .txt3{
         font-family: "Manrope", sans-serif;
-        padding-top: 15px;
-        padding-left: 105px;
+        padding-top: 35px;
+        padding-left: 185px;
         font-weight: 800;
         font-size: 15px;
         color: hsl(225, 20%, 60%);
@@ -374,7 +237,436 @@ li{
         font-weight: 800;
         font-size: 15px;
         margin-left: 5px;
-        padding-top: 15px;
+        padding-top: 35px;
         color: hsl(225, 20%, 60%);
     }
-  } 
+    .txt5{
+        font-family: "Manrope", sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 159px;
+        padding-top: 20px;
+    }
+    
+    .txt6{
+        font-family: "Manrope", sans-serif;
+        font-size: 600;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+        
+    }
+    .txt7{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        margin-right: 15px;
+        padding-left: 85px;
+    }
+    .textos-check{
+        padding-bottom: 14px;
+        padding-left: 15px;
+    }
+    .lista{
+        margin-left: 155px;
+        
+    }
+    li{
+        list-style-image: url(images/icon-check.svg);
+        color: hsl(225, 20%, 60%);
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+        padding-right: 179px;
+        
+    }
+    .boton{
+        border-radius: 100px;
+        color: #BECDFF;
+        background-color: hsl(227, 35%, 25%);
+        border-style: none;
+        font-size: 12px;
+        font-weight: 800;
+        height: 38px;
+        width: 160px;
+        margin-right: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .txt3{
+        font-family: "Manrope", sans-serif;
+        padding-top: 35px;
+        padding-left: 175px;
+        font-weight: 800;
+        font-size: 15px;
+        color: hsl(225, 20%, 60%);
+    
+    }
+    .txt4{
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+    }
+    .txt5{
+        font-family: "Manrope", sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 155px;
+        padding-top: 20px;
+    }
+    
+    .txt6{
+        font-family: "Manrope", sans-serif;
+        font-size: 600;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+        
+    }
+    .txt7{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        margin-right: 15px;
+        padding-left: 95px;
+    }
+    .textos-check{
+        padding-bottom: 14px;
+        padding-left: 15px;
+    }
+    .lista{
+        margin-left: 165px;
+        
+    }
+    li{
+        list-style-image: url(images/icon-check.svg);
+        color: hsl(225, 20%, 60%);
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+        padding-right: 169px;
+        
+    }
+    .boton{
+        border-radius: 100px;
+        color: #BECDFF;
+        background-color: hsl(227, 35%, 25%);
+        border-style: none;
+        font-size: 12px;
+        font-weight: 800;
+        height: 38px;
+        width: 160px;
+        margin-right: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .txt3{
+        font-family: "Manrope", sans-serif;
+        padding-top: 35px;
+        padding-left: 15px;
+        font-weight: 800;
+        font-size: 15px;
+        color: hsl(225, 20%, 60%);
+    
+    }
+    .txt4{
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+    }
+    .txt5{
+        font-family: "Manrope", sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 29px;
+        padding-top: 20px;
+    }
+    
+    .txt6{
+        font-family: "Manrope", sans-serif;
+        font-size: 600;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+        
+    }
+    .txt7{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        margin-right: 15px;
+        padding-left: 125px;
+    }
+    .textos-check{
+        padding-bottom: 14px;
+        padding-left: 15px;
+    }
+    .lista{
+        margin-left: 15px;
+        
+    }
+    li{
+        list-style-image: url(images/icon-check.svg);
+        color: hsl(225, 20%, 60%);
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+        padding-right: 59px;
+        
+    }
+    .boton{
+        border-radius: 100px;
+        color: #BECDFF;
+        background-color: hsl(227, 35%, 25%);
+        border-style: none;
+        font-size: 12px;
+        font-weight: 800;
+        height: 38px;
+        width: 160px;
+        margin-right: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .txt3{
+        font-family: "Manrope", sans-serif;
+        padding-top: 35px;
+        padding-left: 15px;
+        font-weight: 800;
+        font-size: 15px;
+        color: hsl(225, 20%, 60%);
+    
+    }
+    .txt4{
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+    }
+    .txt5{
+        font-family: "Manrope", sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 29px;
+        padding-top: 20px;
+    }
+    
+    .txt6{
+        font-family: "Manrope", sans-serif;
+        font-size: 600;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+        
+    }
+    .txt7{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        margin-right: 15px;
+        padding-left: 125px;
+    }
+    .textos-check{
+        padding-bottom: 14px;
+        padding-left: 15px;
+    }
+    .lista{
+        margin-left: 15px;
+        
+    }
+    li{
+        list-style-image: url(images/icon-check.svg);
+        color: hsl(225, 20%, 60%);
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+        padding-right: 59px;
+        
+    }
+    .boton{
+        border-radius: 100px;
+        color: #BECDFF;
+        background-color: hsl(227, 35%, 25%);
+        border-style: none;
+        font-size: 12px;
+        font-weight: 800;
+        height: 38px;
+        width: 160px;
+        margin-right: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .txt3{
+        font-family: "Manrope", sans-serif;
+        padding-top: 35px;
+        padding-left: 15px;
+        font-weight: 800;
+        font-size: 15px;
+        color: hsl(225, 20%, 60%);
+    
+    }
+    .txt4{
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+    }
+    .txt5{
+        font-family: "Manrope", sans-serif;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding-left: 29px;
+        padding-top: 20px;
+    }
+    
+    .txt6{
+        font-family: "Manrope", sans-serif;
+        font-size: 600;
+        padding-top: 35px;
+        color: hsl(225, 20%, 60%);
+        
+    }
+    .txt7{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 600;
+        color: hsl(225, 20%, 60%);
+        margin-right: 15px;
+        padding-left: 125px;
+    }
+    .textos-check{
+        padding-bottom: 14px;
+        padding-left: 15px;
+    }
+    .lista{
+        margin-left: 15px;
+        
+    }
+    li{
+        list-style-image: url(images/icon-check.svg);
+        color: hsl(225, 20%, 60%);
+        font-size: 13px;
+        font-weight: 600;
+        padding-bottom: 0.5em;
+        padding-right: 59px;
+        
+    }
+    .boton{
+        border-radius: 100px;
+        color: #BECDFF;
+        background-color: hsl(227, 35%, 25%);
+        border-style: none;
+        font-size: 12px;
+        font-weight: 800;
+        height: 38px;
+        width: 160px;
+        margin-right: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+    }
+    .txt8{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        color: hsl(225, 20%, 60%);
+        align-items: center;
+    }
+    .txt9{
+        font-family: "Manrope", sans-serif;
+        font-size: 12px;
+        margin-left: 5px;
+        background-color: hsl(14, 92%, 95%);
+        color: hsl(15, 100%, 70%);
+        border-radius: 10px;
+    }
+}

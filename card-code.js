@@ -1,7 +1,7 @@
 const slider = document.querySelector(".slider");
 const  pageViews = document.querySelector("#pageviews");
 const price  = document.querySelector("#price");
-let promoSwitch = document.querySelector("#promo-switch");
+let promoSwitch = document.querySelector("#switch");
 
 // vistas y precios
 function printPageViews(){
