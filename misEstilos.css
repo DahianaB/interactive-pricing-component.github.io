@@ -2,6 +2,14 @@ body{
     background-image: url(./images/bg-pattern.svg);
     background-repeat: no-repeat;
 }
+/* .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+} */
 .fondo{
     background-image: url(./images/pattern-circles.svg);
     background-repeat: no-repeat;
@@ -126,101 +134,17 @@ body{
 
 
 
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
   
 
 
-/* @media only screen and (min-device-width: 320px) and (max-device-height: 568px) {
-    .txt3{
-        font-family: "Manrope", sans-serif;
-        padding-top: 35px;
-        padding-left: 185px;
-        font-weight: 800;
-        font-size: 15px;
-        color: hsl(225, 20%, 60%);
-    
-    }
-    .txt4{
-        font-family: "Manrope", sans-serif;
-        font-weight: 800;
-        font-size: 15px;
-        margin-left: 5px;
-        padding-top: 35px;
-        color: hsl(225, 20%, 60%);
-    }
-    .txt5{
-        font-family: "Manrope", sans-serif;
-        font-weight: bold;
-        font-size: 2.5rem;
-        padding-left: 159px;
-        padding-top: 20px;
-    }
-    
-    .txt6{
-        font-family: "Manrope", sans-serif;
-        font-size: 600;
-        padding-top: 35px;
-        color: hsl(225, 20%, 60%);
-        
-    }
-    .txt7{
-        font-family: "Manrope", sans-serif;
-        font-size: 12px;
-        line-height: 16px;
-        font-weight: 600;
-        color: hsl(225, 20%, 60%);
-        margin-right: 15px;
-        padding-left: 85px;
-    }
-    .textos-check{
-        padding-bottom: 14px;
-        padding-left: 15px;
-    }
-    .lista{
-        margin-left: 155px;
-        
-    }
-    li{
-        list-style-image: url(images/icon-check.svg);
-        color: hsl(225, 20%, 60%);
-        font-size: 13px;
-        font-weight: 600;
-        padding-bottom: 0.5em;
-        padding-right: 179px;
-        
-    }
-    .boton{
-        border-radius: 100px;
-        color: #BECDFF;
-        background-color: hsl(227, 35%, 25%);
-        border-style: none;
-        font-size: 12px;
-        font-weight: 800;
-        height: 38px;
-        width: 160px;
-        margin-right: 15px;
-        padding-right: 15px;
-        cursor: pointer;
-    }
-    .txt8{
-        font-family: "Manrope", sans-serif;
-        font-size: 12px;
-        font-weight: 800;
-        color: hsl(225, 20%, 60%);
-        align-items: center;
-    }
-    .txt9{
-        font-family: "Manrope", sans-serif;
-        font-size: 12px;
-        margin-left: 5px;
-        background-color: hsl(14, 92%, 95%);
-        color: hsl(15, 100%, 70%);
-        border-radius: 10px;
-    }
 
-} */
+    
+     
+   
 
 
 
@@ -228,11 +152,15 @@ body{
 @media only screen and (max-width: 600px) {
     .txt3{
         font-family: "Manrope", sans-serif;
-        padding-top: 35px;
-        padding-left: 185px;
+        /* padding-top: 35px;
+        padding-left: 185px; */
         font-weight: 800;
         font-size: 15px;
         color: hsl(225, 20%, 60%);
+        margin: 0px;
+        /* margin-bottom: 4px; */
+        letter-spacing: 1px;
+        /* padding: 14px 0px; */
     
     }
     .txt4{
@@ -247,14 +175,15 @@ body{
         font-family: "Manrope", sans-serif;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-left: 159px;
-        padding-top: 20px;
+        margin-left: 15px;
+        
+        
     }
     
     .txt6{
         font-family: "Manrope", sans-serif;
         font-size: 600;
-        padding-top: 35px;
+        padding-top: 15px;
         color: hsl(225, 20%, 60%);
         
     }
@@ -265,23 +194,25 @@ body{
         font-weight: 600;
         color: hsl(225, 20%, 60%);
         margin-right: 15px;
-        padding-left: 85px;
+        /* padding-left: 85px; */
+        display: inline-block;
     }
     .textos-check{
         padding-bottom: 14px;
         padding-left: 15px;
     }
-    .lista{
+    /* .lista{
         margin-left: 155px;
         
-    }
+    } */
     li{
         list-style-image: url(images/icon-check.svg);
         color: hsl(225, 20%, 60%);
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 179px;
+        /* padding-right: 179px; */
+        list-style-position: inside;
         
     }
     .boton{
@@ -293,7 +224,7 @@ body{
         font-weight: 800;
         height: 38px;
         width: 160px;
-        margin-right: 15px;
+        margin-left: 15px;
         padding-right: 15px;
         cursor: pointer;
     }
@@ -303,6 +234,7 @@ body{
         font-weight: 800;
         color: hsl(225, 20%, 60%);
         align-items: center;
+        display: inline-block;
     }
     .txt9{
         font-family: "Manrope", sans-serif;
@@ -312,17 +244,21 @@ body{
         color: hsl(15, 100%, 70%);
         border-radius: 10px;
     }
+    .borde{
+        text-align: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .txt3{
         font-family: "Manrope", sans-serif;
-        padding-top: 35px;
-        padding-left: 175px;
+        padding-top: 15px;
+        /* padding-left: 175px; */
         font-weight: 800;
         font-size: 15px;
         color: hsl(225, 20%, 60%);
+        letter-spacing: 1px;
     
     }
     .txt4{
@@ -337,14 +273,14 @@ body{
         font-family: "Manrope", sans-serif;
         font-weight: bold;
         font-size: 2.5rem;
-        padding-left: 155px;
-        padding-top: 20px;
+        padding-left: 295px;
+       
     }
     
     .txt6{
         font-family: "Manrope", sans-serif;
         font-size: 600;
-        padding-top: 35px;
+        padding-top: 15px;
         color: hsl(225, 20%, 60%);
         
     }
@@ -356,22 +292,23 @@ body{
         color: hsl(225, 20%, 60%);
         margin-right: 15px;
         padding-left: 95px;
+        display: inline-block;
     }
     .textos-check{
         padding-bottom: 14px;
         padding-left: 15px;
     }
-    .lista{
+    /* .lista{
         margin-left: 165px;
         
-    }
+    } */
     li{
         list-style-image: url(images/icon-check.svg);
         color: hsl(225, 20%, 60%);
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 169px;
+        list-style-position: inside;
         
     }
     .boton{
@@ -383,7 +320,7 @@ body{
         font-weight: 800;
         height: 38px;
         width: 160px;
-        margin-right: 15px;
+        margin-left: 25px;
         padding-right: 15px;
         cursor: pointer;
     }
@@ -393,6 +330,7 @@ body{
         font-weight: 800;
         color: hsl(225, 20%, 60%);
         align-items: center;
+        display: inline-block;
     }
     .txt9{
         font-family: "Manrope", sans-serif;
@@ -402,10 +340,16 @@ body{
         color: hsl(15, 100%, 70%);
         border-radius: 10px;
     }
+    .borde{
+        text-align: center;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+    .borde{
+        text-align: center;
+    }
     .txt3{
         font-family: "Manrope", sans-serif;
         padding-top: 35px;
@@ -461,7 +405,8 @@ body{
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 59px;
+        padding-right: 9px;
+        list-style-position: inside;
         
     }
     .boton{
@@ -496,6 +441,9 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .borde{
+        text-align: center;
+    }
     .txt3{
         font-family: "Manrope", sans-serif;
         padding-top: 35px;
@@ -551,7 +499,7 @@ body{
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 59px;
+        padding-right: 9px;
         
     }
     .boton{
@@ -641,7 +589,7 @@ body{
         font-size: 13px;
         font-weight: 600;
         padding-bottom: 0.5em;
-        padding-right: 59px;
+        padding-right: 9px;
         
     }
     .boton{
@@ -671,5 +619,8 @@ body{
         background-color: hsl(14, 92%, 95%);
         color: hsl(15, 100%, 70%);
         border-radius: 10px;
+    }
+    .borde{
+        text-align: center;
     }
 }
